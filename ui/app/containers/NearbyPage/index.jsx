@@ -121,7 +121,7 @@ const LargeImage = styled.img`
 export default memo(NearbyPage);
 
 const Flickr = ({ position }) => {
-  const [imgList, setImgList, coordinates] = React.useState();
+  const [imgList, setImgList] = React.useState();
   const [Thumb, setThumb] = React.useState();
 
   React.useEffect(() => {
